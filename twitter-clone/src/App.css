@@ -1,0 +1,42 @@
+body {
+  --twitter-color: #50b7f5;
+  --twitter-background: #e6ecf0;
+}
+
+.app {
+  display: flex;
+  height: 100vmin;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+.app__home {
+  background-color: #fafafa;
+}
+.app__login {
+  display: grid;
+  place-items: center;
+  background-color: #fafafa;
+  height: 100vh;
+}
+.app__logout {
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: right;
+  text-transform: inherit !important;
+  background-color: var(--twitter-color);
+  font-size: large;
+  width: 120px !important;
+  height: 30px !important;
+  border: none;
+}
+.app__body {
+  background-color: #fafafa;
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
